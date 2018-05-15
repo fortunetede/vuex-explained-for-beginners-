@@ -18,12 +18,12 @@
   import store from '../store/index'
   import { mapGetters } from 'vuex'
   import UseridPost from './PostWithUserId1'
-  export default {
 
+  export default {
     computed: {
       ...mapGetters([
         'posts',
-      ])
+      ]),
     },
     components: {
       UseridPost,
