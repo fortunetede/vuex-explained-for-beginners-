@@ -1,4 +1,6 @@
 <template>
+<div>
+<button><router-link to="/create">Create Blog</router-link></button>
   <div class="row">
     <div class="col-md-6">
       <strong>List of Posts</strong>
@@ -12,6 +14,7 @@
     </div>
     <userid-post></userid-post>
   </div>
+</div>
 </template>
 
 <script>
